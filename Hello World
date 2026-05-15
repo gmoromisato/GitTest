@@ -1,0 +1,17 @@
+using UI
+
+var mainCtrl = UI.create("text")
+mainCtrl.data = "Hello, world!"
+mainCtrl.align = "center middle"
+mainCtrl.fontSize = "100pt"
+
+function mainCtrl.onclick () do
+	if mainCtrl.data == "Goodbye!" do
+		mainCtrl.data = "Hello, World!"
+	else do
+		mainCtrl.data = "Goodbye!"
+	end
+end
+
+UI.show(mainCtrl)
+UI.run()
