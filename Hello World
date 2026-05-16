@@ -1,3 +1,7 @@
+|	Hello World
+|
+|	This is a sample GridWhale UI program.
+
 using UI
 
 var mainCtrl = UI.create("text")
